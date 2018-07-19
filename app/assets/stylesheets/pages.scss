@@ -7,16 +7,20 @@
 
 
 /* General */
+@font-face {font-family: 'Kungfont-Regular';
+src: url('Kungfont-Regular');
+}
 html, body {
   height: 100%;
   margin: 0;
 }
 
 body {
-  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/bg-static.jpg');
+  background-image: url(asset-path('ev-295467-unsplash.jpg'));
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Kungfont-Regular', sans-serif;
+  font-stretch: extra-condensed;
 }
 
 .container {
@@ -41,9 +45,12 @@ body {
   font-size: 30px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 301px) and (max-width: 800px) {
     body {
-        background-size: auto 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
     .container {
         width: 100%;
