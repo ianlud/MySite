@@ -8,15 +8,15 @@
 
 /* General */
 @font-face {font-family: 'Kungfont-Regular';
-src: url('Kungfont-Regular');
+src: url('Shojumaru-Regular');
 }
-html, body {
-  height: 100%;
-  margin: 0;
-}
+// html, body {
+//   height: 100%;
+//   margin: 0;
+// }
 
-body {
-  background-image: url(asset-path('ev-295467-unsplash.jpg'));
+html {
+  background-image: url("/brxxto-350449-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Kungfont-Regular', sans-serif;
@@ -45,7 +45,7 @@ body {
   font-size: 30px;
 }
 
-@media screen and (min-width: 301px) and (max-width: 800px) {
+@media screen and (min-width: 1079px) {
     body {
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -54,5 +54,18 @@ body {
     }
     .container {
         width: 100%;
+    }
+}
+@media screen and (max-width: 1079px)  {
+    body {
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .container {
+        margin: 1% 10% 15% 25%;
+        width: 50%;
+        height: 50%;
     }
 }
