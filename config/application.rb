@@ -13,6 +13,7 @@ module MySite
     config.assets.paths << Rails.root.join("app","assets","fonts")
     #config.assets.paths << Rails.root.join('app/assets/fonts')
     config.assets.precompile <</\.(?:svg|eot|woff|tff)$/
+    config.assets.initialize_on_precompile = false
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
