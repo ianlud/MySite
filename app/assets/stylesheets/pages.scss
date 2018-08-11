@@ -8,7 +8,7 @@
 
 /* General */
 @font-face {font-family: 'Kungfont-Regular';
-src: url('Shojumaru-Regular');
+src: url('Falco Black Outline');
 }
 // html, body {
 //   height: 100%;
@@ -16,8 +16,8 @@ src: url('Shojumaru-Regular');
 // }
 
 html {
-  background-image: url("/brxxto-350449-unsplash.jpg");
-  background-repeat: no-repeat;
+  background-image: url("/ashleigh-robertson-768568-unsplash.jpg");
+  // background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Kungfont-Regular', sans-serif;
   font-stretch: extra-condensed;
@@ -54,18 +54,21 @@ html {
     }
     .container {
         width: 100%;
+        height: auto;
     }
 }
 @media screen and (max-width: 1079px)  {
     body {
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+      background-repeat:no-repeat;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-repeat: repeat;
+background-size:100% 100%;
+background-position:center center;
     }
     .container {
-        margin: 1% 10% 15% 25%;
-        width: 50%;
-        height: 50%;
+      width: 100%;
+      height: auto;
     }
 }
