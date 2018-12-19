@@ -1,74 +1,74 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
-
-/* General */
-@font-face {font-family: 'Kungfont-Regular';
-src: url('Falco Black Outline');
-}
-// html, body {
-//   height: 100%;
-//   margin: 0;
+// // Place all the styles related to the Pages controller here.
+// // They will automatically be included in application.css.
+// // You can use Sass (SCSS) here: http://sass-lang.com/
+// // Place all the styles related to the Pages controller here.
+// // They will automatically be included in application.css.
+// // You can use Sass (SCSS) here: http://sass-lang.com/
+//
+//
+// /* General */
+// @font-face {font-family: 'Kungfont-Regular';
+// src: url('Falco Black Outline');
 // }
-
-html {
-  background-image: url("/ashleigh-robertson-768568-unsplash.jpg");
-  // background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Kungfont-Regular', sans-serif;
-  font-stretch: extra-condensed;
-}
-
-.container {
-  margin: 0 auto;
-  width: 900px;
-}
-
-/* Main */
-.main {
-  color: #fff;
-  position: relative;
-  top: 100px;
-  text-align: center;
-}
-
-.main h1 {
-  font-size: 80px;
-  font-weight: 300;
-}
-
-.main p {
-  font-size: 30px;
-}
-
-@media screen and (min-width: 1079px) {
-    body {
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-    .container {
-        width: 100%;
-        height: auto;
-    }
-}
-@media screen and (max-width: 1079px)  {
-    body {
-      background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-repeat: repeat;
-background-size:100% 100%;
-background-position:center center;
-    }
-    .container {
-      width: 100%;
-      height: auto;
-    }
-}
+// // html, body {
+// //   height: 100%;
+// //   margin: 0;
+// // }
+//
+// html {
+//   background-image: url("/ashleigh-robertson-768568-unsplash.jpg");
+//   // background-repeat: no-repeat;
+//   background-size: cover;
+//   font-family: 'Kungfont-Regular', sans-serif;
+//   font-stretch: extra-condensed;
+// }
+//
+// .container {
+//   margin: 0 auto;
+//   width: 900px;
+// }
+//
+// /* Main */
+// .main {
+//   color: #fff;
+//   position: relative;
+//   top: 100px;
+//   text-align: center;
+// }
+//
+// .main h1 {
+//   font-size: 80px;
+//   font-weight: 300;
+// }
+//
+// .main p {
+//   font-size: 30px;
+// }
+//
+// @media screen and (min-width: 1079px) {
+//     body {
+//         -webkit-background-size: cover;
+//         -moz-background-size: cover;
+//         -o-background-size: cover;
+//         background-size: cover;
+//     }
+//     .container {
+//         width: 100%;
+//         height: auto;
+//     }
+// }
+// @media screen and (max-width: 1079px)  {
+//     body {
+//       background-repeat:no-repeat;
+// -webkit-background-size:cover;
+// -moz-background-size:cover;
+// -o-background-size:cover;
+// background-repeat: repeat;
+// background-size:100% 100%;
+// background-position:center center;
+//     }
+//     .container {
+//       width: 100%;
+//       height: auto;
+//     }
+// }
